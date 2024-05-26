@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+
+}
+
+main {
+    width: 1440px;
+    height: 900px;
+}
+
+h1 {
+    width: 368px;
+    height: 160px;
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 80px;
+    color: #5D5D7D;
+    margin: 381px 0 0 136px;
+}
+
+p {
+    width: 540px;
+    height: 144px;
+
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 38px;
+    color: #5D5D7D;
+    margin: 15px 0 0 136px;
+}
+
+button {
+    border: 1px;
+    width: 269px;
+    height: 62px;
+    border-radius: 30px;
+    margin: 15px 0 0 136px;
+    background: #9499EA;
+    box-shadow: 0px 10px 24px 0px #9499EA19;
+
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+
+
+    color: #FFFFFF;
+
+
+}
+
+section {
+    width: 950px;
+    height: 901px;
+    display: inline-block;
+}
+
+.right {
+    width: 491px;
+    height: 901px;
+    display: inline-block;
+    position: absolute;
+    background-color: rgba(93, 93, 125, 0.16);
+
+}
+
+
+
+
+header {
+    position: fixed;
+    top: 24px;
+    left: 1006px;
+    width: 396px;
+    height: 42px;
+
+}
+
+.menu {
+    margin-right: 41px;
+
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 41.5px;
+    text-align: left;
+cursor: pointer;
+}
+
+.image {
+    display: inline-block;
+    position: fixed;
+    top: 215px;
+    left: 807px;
+    width: 456px;
+    height: 561px;
+
+}
+
+@media (max-width: 600px) {
+
+    body {
+        height: 100vh;
+    }
+
+    main {
+        width: 375px;
+        height: 100vh;
+    }
+
+    header {
+        display: none;
+    }
+
+    section {
+        width: 375px;
+        height: 375px;
+        display: block;
+    }
+
+    h1 {
+        width: 268px;
+        height: 104px;
+        margin: 58px 53px 54px 0;
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 52px;
+        text-align: center;
+
+
+    }
+
+    p {
+        width: 296px;
+        height: 96px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: center;
+        margin: 0 39px 15px 14px;
+    }
+
+    button {
+        margin: 0 52px 0 52px;
+    }
+
+    .right {
+        display: inline-block;
+        width: 375px;
+        height: 415px;
+        background-color: rgba(93, 93, 125, 0.16);
+ 
+
+    }
+
+    .image {
+        width: 271px;
+        height: 322.95px;
+        position: fixed;
+        
+    }
+
+    img {
+        margin: 0;
+        width: 271px;
+        height: 322.95px;
+        display: inline-block;
+        
+    }
+}
